@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import { ScrollView, FlatList, Alert } from 'react-native';
 import styled from 'styled-components/native';
 import { HeaderContainer, HeaderTitle } from '../components/Header';
@@ -47,7 +47,7 @@ const HomeScreen = () => {
                 />
 
                 <Button
-                    title='Sobre'
+                    title="Sobre"
                     onPress={() => Alert.alert('Bem-vindo', 'Aplicativo React Native')}
                     color="#6c757d"
                 />
@@ -73,7 +73,7 @@ const HomeScreen = () => {
         padding: 10px;
     `;
 
-    const Addbutton = styled.touchableOpacity`
+    const Addbutton = styled.TouchableOpacity`
         background-color: #28a745;
         padding: 10px;
         border-radius: 5px;
@@ -94,7 +94,7 @@ const HomeScreen = () => {
         elevation: 2;
     `;
 
-    const ListItemText = styled.text`
+    const ListItemText = styled.Text`
         font-size: 16px;
     `;
 
