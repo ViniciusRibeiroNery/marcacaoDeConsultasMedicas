@@ -11,13 +11,13 @@ export default function App() {
         <NavigationContainer>
             <SafeAreaView style = {{ flex: 1}}>
                 <StatusBar barStyle="light-content" backgroundColor="#007BFF"/>
-                <Stack.navigator>
+                <Stack.Navigator>
                     <Stack.Screen
                         name="Home"
                         component={HomeScreen}
                         options={{ headerShown: false }}
                     />
-                </Stack.navigator>
+                </Stack.Navigator>
             </SafeAreaView>
         </NavigationContainer> 
     );
