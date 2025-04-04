@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ScrollView, FlatList, Alert } from 'react-native';
+import { ScrollView, FlatList, Alert, Button } from 'react-native';
 import styled from 'styled-components/native';
 import { HeaderContainer, HeaderTitle } from '../components/Header';
 
@@ -32,17 +32,17 @@ const HomeScreen = () => {
                     value={text}
                 />
 
-                <AddButton onPress={addItem}>
+                <Addbutton onPress={addItem}>
                     <ButtonText>Adicionar</ButtonText>
-                </AddButton>
+                </Addbutton>
 
                 <FlatList
                     data={items}
                     keyExtractor={(item) => item.id}
                     renderItem={({ item }) => (
-                    <ListItem>
+                    <ListenItem>
                         <ListItemText>{item.text}</ListItemText>
-                    </ListItem>
+                    </ListenItem>
                     )}
                 />
 
