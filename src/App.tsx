@@ -6,15 +6,15 @@ import theme from './styles/theme';
 import { StatusBar } from 'react-native';
 
 export default function App() {
-    return(
+    return (
         <ThemeProvider theme={theme}>
-            <NavigationContainer>
-                <StatusBar
-                    barStyle="light-content"
-                    backgroundColor={theme.colors.primary}
-                />
-                <AppRoutes/>
-            </NavigationContainer>
-        </ThemeProvider>    
+        <NavigationContainer>
+            <StatusBar 
+                barStyle="light-content" 
+                backgroundColor={theme.colors.primary} 
+            />
+            <AppRoutes />
+        </NavigationContainer>
+    </ThemeProvider>
     );
-};
+}

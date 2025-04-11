@@ -54,7 +54,7 @@ const Container = styled.View`
 `;
 
 const Content = styled.View`
-    flex: 1
+    flex: 1;
     padding: ${theme.spacing.medium}px;
 `;
 
