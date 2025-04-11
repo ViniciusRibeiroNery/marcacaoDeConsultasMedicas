@@ -13,6 +13,7 @@ export default function AppRoutes() {
                 animation: 'slide_from_right',
             }}>
                 <Stack.Screen name="Home" component={HomeScreen}/>
+                <Stack.Screen name="CreateAppointment" component={CreateAppointmentScreen}/>
                 <Stack.Screen name="Profile" component={ProfileScreen}/>
         </Stack.Navigator>        
     );
