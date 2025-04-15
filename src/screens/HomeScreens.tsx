@@ -227,4 +227,4 @@ const EmptyText = styled.Text`
   margin-top: ${theme.spacing.large}px;
 `;
 
-export default HomeScreen;
+export default HomeScreen; 
